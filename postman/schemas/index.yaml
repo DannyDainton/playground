@@ -27,6 +27,8 @@ paths:
           content:
             application/json:
               schema:
+                $ref: '#/components/schemas/SpacecraftId'
+
 components:
   schemas:
     SpacecraftId:
