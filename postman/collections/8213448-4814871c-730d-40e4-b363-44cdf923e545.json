@@ -34,10 +34,7 @@
 									"// Only set the variable if the response is successful ",
 									"if (pm.response.code === 200) {",
 									"    pm.collectionVariables.set('apiKey', response.apiKey);",
-									"}",
-									"",
-									"// Log the apiKey to the console",
-									"console.log('API Key:', pm.collectionVariables.get('apiKey'));"
+									"}"
 								],
 								"type": "text/javascript",
 								"packages": {}
