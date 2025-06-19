@@ -558,6 +558,21 @@
 		},
 		{
 			"name": "Edit A Users Name Again",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4e7bd124-10b6-4c34-a20b-a320e0e27847",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"id": "8213448-a3624f28-145b-4202-a79f-383ddd54fddd",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -587,7 +602,6 @@
 					],
 					"variable": [
 						{
-							"id": "b797c5a8-9204-4e92-a117-cbef63376afa",
 							"key": "userId",
 							"value": "{{userId}}"
 						}
