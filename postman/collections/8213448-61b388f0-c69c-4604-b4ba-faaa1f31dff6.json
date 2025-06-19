@@ -314,7 +314,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"name\": \"Danny Dainton\"\n}",
+					"raw": "{\n    \"name\": \"{{$randomUserName}}\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -334,7 +334,6 @@
 					],
 					"variable": [
 						{
-							"id": "603afc00-78b1-42f8-9765-5cbf5f6c6b69",
 							"key": "userId",
 							"value": "{{userId}}"
 						}
