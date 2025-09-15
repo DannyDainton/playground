@@ -2922,13 +2922,11 @@
 	],
 	"variable": [
 		{
-			"id": "1a2ff17a-246e-4611-8a95-d1d5fe8c1081",
 			"key": "baseUrl",
 			"value": "https://template.postman-echo.com",
 			"type": "string"
 		},
 		{
-			"id": "a2ccaa57-5eeb-46f8-9a66-012473b3d2f1",
 			"key": "apiKey",
 			"value": ""
 		}
